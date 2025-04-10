@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nunes Jacobs</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sp-css@0.0.2/sp.css">
+    <style>
+        body {
+            font-family: 'JetBrains Mono', monospace;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem;
+            background-color: #47705c;
+            color: #fa8072;
+            line-height: 1.6;
+        }
+        .card {
+            border: 1px solid #fa8072;
+            padding: 2rem;
+            border-radius: 4px;
+            box-shadow: 0 0 10px rgba(250, 128, 114, 0.3);
+        }
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            border-bottom: 1px solid #fa8072;
+            padding-bottom: 0.5rem;
+        }
+        .contact {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+            margin-top: 2rem;
+        }
+        a {
+            color: #fa8072;
+            text-decoration: none;
+            border-bottom: 1px dotted #fa8072;
+        }
+        a:hover {
+            color: #ffffff;
+            border-bottom: 1px solid #ffffff;
+        }
+        .prompt::before {
+            content: "$ ";
+            opacity: 0.8;
+        }
+        .skills {
+            margin-top: 1.5rem;
+        }
+        .skills-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin-top: 0.5rem;
+        }
+        .skill-tag {
+            background-color: rgba(250, 128, 114, 0.1);
+            border: 1px solid #fa8072;
+            padding: 0.25rem 0.5rem;
+            border-radius: 2px;
+            font-size: 0.9rem;
+        }
+        .blink {
+            animation: blink 1s step-end infinite;
+        }
+        @keyframes blink {
+            0% { opacity: 1; }
+            50% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+        @media (max-width: 600px) {
+            body {
+                padding: 1rem;
+            }
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/jetbrains-mono@4.5.0/index.css">
+</head>
+<body>
+    <div class="card">
+        <h1 class="prompt">Michael J. Nunes Jacobs</h1>
+        <p class="prompt">Software Developer</p>
+        <p>Modern web dev, robust backends, MS 365 admin & Power Platform expert.</p>
+        <p>"Automation is magic - solve it once, automate forever."</p>
+        
+        <div class="skills">
+            <p class="prompt">Skills</p>
+            <div class="skills-list">
+                <span class="skill-tag">Power Automate</span>
+                <span class="skill-tag">JavaScript</span>
+                <span class="skill-tag">jQuery</span>
+                <span class="skill-tag">Go</span>
+                <span class="skill-tag">Java</span>
+                <span class="skill-tag">SQL</span>
+                <span class="skill-tag">Azure</span>
+                <span class="skill-tag">.NET#</span>
+                <span class="skill-tag">ASP.NET</span>
+            </div>
+        </div>
+        
+        <div class="contact">
+            <p class="prompt">Contact</p>
+            <a href="mailto:nunesjacobs@insicuri.net">nunesjacobs@insicuri.net</a>
+            <a href="https://github.com/drzo1dberg">github.com/drzo1dberg</a>
+        </div>
+
+        <p style="margin-top: 2rem; font-size: 0.9rem;">
+            <span class="prompt">status</span>
+            Available for new projects <span class="blink">_</span>
+        </p>
+    </div>
+</body>
+</html> 
