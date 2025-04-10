@@ -5,7 +5,7 @@ A minimalist, terminal-inspired portfolio page for software developers, styled w
 ## Features
 
 - Single HTML file - extremely lightweight
-- Terminal/hacker aesthetic with green-on-black theme
+- Terminal aesthetic
 - Responsive design that works on mobile and desktop
 - Custom skills section with tag styling
 - Contact information with interactive links
